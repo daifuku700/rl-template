@@ -468,6 +468,7 @@ def log_eval_returns(metrics, config: Args):
             reinit=True,
             name=f"{config.run_name}-seed{seed}",
             mode=config.wandb_mode,
+            entity=config.wandb_entity,
         )
         for step, t in enumerate(ts):
             log_payload = {
