@@ -27,7 +27,7 @@ class Args:
     num_seeds: int = 20
     """the number of random seeds to use for training"""
     hyp_tune: bool = False
-    "if toggled, will use hyperparameter tuning"
+    """if toggled, will use hyperparameter tuning"""
 
     # wandb
     wandb_mode: str = "online"
