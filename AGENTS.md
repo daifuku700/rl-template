@@ -2,7 +2,7 @@
 
 ## AGENT のルール
 - コード内のコメントは最小限にし, それは英語で記載して下さい. それ以外は日本語で回答して下さい.
-- このプロジェクトの構成が変更され次第, プロジェクトに合わせてこの `AGENT.md` も修正して下さい.
+- このプロジェクトの構成が変更され次第, プロジェクトに合わせてこの `AGENTS.md` も修正して下さい.
 
 ## Project Structure & Module Organization
 This repository is currently a minimal Python project scaffold.
