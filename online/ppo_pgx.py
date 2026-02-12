@@ -386,7 +386,8 @@ def make_train(config: Args):
             R = eval_callback(runner_state, metrics)
             metrics["return"] = R
             metrics = {
-                k: (v[-1] if k == "timesteps" else v.mean()) for k, v in metrics.items()
+                k: (v[-1] if k in ("timesteps", "n_updates") else v.mean())
+                for k, v in metrics.items()
             }
 
             return runner_state, metrics
